@@ -12,7 +12,7 @@ public class ServoInbetweenControl extends OpMode {
 
     // Set these for your servo:
     private final double DOWN_POS = 0.0;    // resting/down
-    private final double UP_POS = 0.25;     // 45 degrees up (adjust as needed for your servo!)
+    private final double UP_POS = 0.25;     // 45 degrees up (adjust as needed for the servo)
 
     @Override
     public void init() {

@@ -13,9 +13,9 @@ public class MecanumFieldOrientatedOpMode extends OpMode {
 
     @Override
     public void loop() {
-        forward = gamepad1.left_stick_y;
-        strafe = gamepad1.left_stick_x;
-        rotate = gamepad1.right_stick_x;
+        forward = gamepad2.left_stick_y;
+        strafe = gamepad2.left_stick_x;
+        rotate = gamepad2.right_stick_x;
 
         drive.driveFieldRelative(forward,strafe,rotate);
     }
